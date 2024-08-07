@@ -1,0 +1,19 @@
+cd C:\Users\Aluno\Documents\NetBeansProjects\Projeto3; "JAVA_HOME=C:\\Program Files\\Java\\jdk-21" cmd /c "\"C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-21\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.projeto3.Projeto3 -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" org.codehaus.mojo:exec-maven-plugin:3.0.0:exec"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+-----------------------< com.mycompany:Projeto3 >-----------------------
+Building Projeto3 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ Projeto3 ---
+Título: Senai
+Autor: Fuboca
+Páginas: 12
+Preço: R$351 reais
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  1.021 s
+Finished at: 2024-08-07T11:24:08-03:00
+------------------------------------------------------------------------
